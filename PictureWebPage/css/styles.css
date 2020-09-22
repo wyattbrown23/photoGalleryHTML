@@ -1,0 +1,27 @@
+
+
+  .mainTitle{
+      color:rgb(0, 153, 255);
+      font-size: xx-large;
+  }
+  .subTitle{
+    font-family: cursive;
+  }
+  .photos{
+    margin: 10px 50px;
+  }
+
+  .photos img{
+    transition: 1s;
+    padding: 15px;
+    width: 200px;
+  }
+
+  .photos img:hover{
+    filter: grayscale(100%);
+    transform: scale(1.1);
+  }
+
+  header{
+    background-color: beige;
+  }
